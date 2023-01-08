@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const App = () => {
+const Shop = () => {
     const [refresh, setrefresh] = useState(false)
     const [totalCart, settotalCart] = useState(0)
 
@@ -70,4 +70,4 @@ const App = () => {
 }
 
 
-export default App
+export default Shop
